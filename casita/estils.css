@@ -1,0 +1,155 @@
+body {
+  background-color: #0A4CAA;
+  margin: 0;
+  padding: 0;
+}
+
+#luna {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  border-radius: 50%;
+  background-color: #FFFFE3;
+  box-shadow: 0px 0px 50px 50px white;
+}
+
+#nube{
+   width: 50px;
+   animation:nube 10s;
+   animation-iteration-count: infinite;
+   position:absolute;
+   top:300px;
+}
+
+@keyframes nube{
+  from{left:100%}
+  to{left:-100px}
+}
+
+#chimenea {
+  width: 30px;
+  height: 60px;
+  background-color: black;
+  position: absolute;
+  left: 525px;
+  top: 410px;
+}
+
+.humito {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  opacity: 50%;
+  border-radius: 50%;
+  position: absolute;
+  left: 500px;
+  top: 320px;
+}
+
+.humito:after {
+  width: 130px;
+  height: 130px;
+  background-color: grey;
+  opacity: 50%;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: -60px;
+}
+
+.humito:before {
+  width: 70px;
+  height: 70px;
+  background-color: grey;
+  opacity: 50%;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 130px;
+  top: -60px;
+}
+
+#fachada {
+  width: 200px;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  left: 500px;
+  top: 500px;
+}
+
+#cesped {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 750px;
+  background-color: 915244;
+}
+
+#tejado {
+  width: 220px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  left: 490px;
+  top: 400px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+#puerta {
+  width: 50px;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  left: 75px;
+  top: 150px;
+}
+
+.ventanas {
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  position: absolute;
+  top: 40px;
+}
+
+#ventana1 {
+  left: 40px;
+}
+
+#ventana2 {
+  left: 110px;
+}
+
+.monte{
+  width: 300px;
+  height: 500px;
+  background-color: green;
+  position: absolute;
+  top: 250px;
+}
+
+#monte1{
+  clip-path: polygon(45% 0, 81% 34%, 100% 100%, 0 100%);
+  background-color: 277654;
+}
+
+#monte2{
+  clip-path: polygon(45% 0, 81% 34%, 100% 100%, 0 100%);
+  left: 275px;
+  background-color: 449170;
+}
+
+#monte3{
+  clip-path: polygon(45% 0, 81% 34%, 100% 100%, 0 100%);
+  left: 550px;
+  background-color: 277654;
+}
+
+#monte4{
+  clip-path: polygon(45% 0, 81% 34%, 100% 100%, 0 100%);
+  left: 800px;
+  background-color: 449170;
+}
