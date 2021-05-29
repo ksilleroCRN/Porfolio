@@ -1,0 +1,77 @@
+body{
+  background-image: url(IMG/coche.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#nombre {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 80px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.contenedor {
+  width: 600px;
+}
+
+.marco {
+  width: 200px;
+  height: 150px;
+  background-image: url(IMG/marco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin-left: 40px;
+  transition: 1s;
+}
+
+.marco:hover {
+  transform: scale(1.3);
+}
+
+.p {
+  position:
+}
+
+.prac {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 28px;
+  position:absolute;
+  margin-top: 54px;
+}
+
+#bender {
+  margin-left: 82px;
+}
+
+#casita {
+  margin-left: 92px;
+}
+
+#corazón {
+  margin-left: 80px;
+}
+
+#feedly {
+  margin-left: 90px;
+}
+
+#floats {
+  margin-left: 96px;
+}
+
+#formulario {
+  margin-left: 73px;
+}
+
+#hovers {
+  margin-left: 90px;
+}
+
+#mapa {
+  margin-left: 93px;
+}
