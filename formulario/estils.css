@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+form {
+  margin-left: 10px;
+}

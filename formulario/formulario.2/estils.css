@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+#contenedor {
+  width: 200px;
+  background-color: pink;
+  margin: 0 auto;
+
+}
+
+input {
+  margin: 10px;
+}
+
+select {
+  height: 30px;
+  width: 175px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#envia {
+  background-color: white;
+}
